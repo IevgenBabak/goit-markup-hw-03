@@ -1,0 +1,193 @@
+body {
+  background-color: var(--brand-color);
+  color: var(--third-black-color);
+  font-family: Roboto, Raleway, Arial, Verdana, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+:root {
+  --brand-color: #ffffff;
+  --second-white-color: #f5f5f5;
+  --accent-color: #2196f3;
+  --prime-black-color: #000000;
+  --second-black-color: #212121;
+  --third-black-color: #757575;
+  --backgroun-footer-color: #2f303a;
+  --active-color: #188ce8;
+  --background-button-color: #f5f4fa;
+  --mailto-ground-color: rgba(255, 255, 255, 0.6);
+}
+li {
+  list-style-type: none;
+}
+/* Header */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-header {
+  color: var(--prime-black-color);
+}
+.accent {
+  color: var(--accent-color);
+}
+.logo:focus,
+.logo:active {
+  color: var(--accent-color);
+}
+.site-nav.link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-black-color);
+  text-decoration: none;
+}
+.site-nav.link.current {
+  color: var(--accent-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.mailto-tel-header {
+  color: var(--third-black-color);
+  font-weight: 500;
+
+  text-decoration: none;
+}
+.mailto-tel-header.link {
+  letter-spacing: 0.02em;
+}
+/* Main */
+.hero {
+  background-color: var(--backgroun-footer-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--brand-color);
+}
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--brand-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.selection:hover,
+.selection:focus {
+  background-color: var(--active-color);
+}
+.selection:active {
+  color: var(--brand-color);
+  background-color: var(--accent-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.filter {
+  letter-spacing: 0.03em;
+  color: var(--second-black-color);
+  background-color: var(--background-button-color);
+  cursor: pointer;
+}
+.link-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--second-black-color);
+  background-color: var(--background-button-color);
+  cursor: pointer;
+}
+.link-filter.selection:hover,
+.link-filter.selection:focus {
+  color: var(--brand-color);
+  background-color: var(--accent-color);
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+
+  color: var(--second-black-color);
+}
+.advantages-title {
+  line-height: 1.14;
+  font-size: 14px;
+  color: var(--second-black-color);
+}
+.text {
+  line-height: 1.17;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--second-black-color);
+}
+.our-team {
+  background-color: var(--background-button-color);
+}
+.team-presentation {
+  background-color: var(--brand-color);
+}
+.title-our-team {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--second-black-color);
+}
+.our-team-txt {
+  font-size: 16px;
+  line-height: 1.19;
+}
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-black-color);
+}
+.portfolio-txt {
+  font-size: 16px;
+  line-height: 1.88;
+}
+/* Footer */
+.ground {
+  background-color: var(--backgroun-footer-color);
+}
+.logo-ground {
+  color: var(--brand-color);
+}
+.address-style {
+  font-style: normal;
+}
+.link-address {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+  text-decoration: none;
+}
+.mailto-tel-ground {
+  line-height: 1.71;
+  color: var(--mailto-ground-color);
+  text-decoration: none;
+}
