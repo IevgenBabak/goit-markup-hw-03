@@ -100,7 +100,10 @@ header {
   margin-right: auto;
   width: 1200px;
 }
-
+.mailito-tel-container {
+display: flex;
+gap: 50px;
+}
 .mailito-tel-container {
   justify-content: flex-end;
 }
