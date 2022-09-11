@@ -15,19 +15,19 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+   <header>
       <!-- 1 блок меню та контакти-->
-      <div class="container header-container">
+      <div class="container first-header-container">
         <nav class="container">
           <a href="./index.html" class="logo logo-header"><span class="accent">Web</span>Studio</a>
           <ul class="nav">
-            <li><a class="site-nav link current" href="./index.html">Студія</a></li>
-            <li><a class="site-nav link " href="./portfolio.html">Портфоліо</a></li>
+            <li><a class="site-nav current link" href="./index.html">Студія</a></li>
+            <li><a class="site-nav link" href="./portfolio.html">Портфоліо</a></li>
             <li><a class="site-nav link" href="./index.html">Контакти</a></li>
           </ul>
         </nav>
         <!-- 2 блок контакти -->
-        <div class="container-mt">
+        <div class="second-header-container">
           <ul class="nav mailito-tel-container">
             <li>
               <a class="mailto-tel-header link" href="mailto:info@devstudio.com"
@@ -54,36 +54,28 @@
         <div class="container">
           <h2 class="title visually-hidden">Переваги компанії</h2>
           <ul class="advantages-item">
-            <div class="container-advantages">
-              <li class="advantages-li">
-                <h3 class="advantages-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                <p class="text">
-                  Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-                </p>
-              </li>
-            </div>
-            <div class="container-advantages">
-              <li class="advantages-li">
-                <h3 class="advantages-title">ПУНКТУАЛЬНІСТЬ</h3>
-                <p class="text">
-                  Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-                </p>
-              </li>
-            </div>
-            <div class="container-advantages">
-              <li class="advantages-li">
-                <h3 class="advantages-title">ПЛАНУВАННЯ</h3>
-                <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
-              </li>
-            </div>
-            <div class="container-advantages">
-              <li class="advantages-li">
-                <h3 class="advantages-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                <p class="text">
-                  Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-                </p>
-              </li>
-            </div>
+            <li class="advantages-li">
+              <h3 class="advantages-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="text">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+            <li class="advantages-li">
+              <h3 class="advantages-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="text">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
+            </li>
+            <li class="advantages-li">
+              <h3 class="advantages-title">ПЛАНУВАННЯ</h3>
+              <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+            </li>
+            <li class="advantages-li">
+              <h3 class="advantages-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="text">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
           </ul>
         </div>
       </section>
@@ -94,6 +86,7 @@
           <ul class="what_we_doing">
             <li class="what_we_doing-item">
               <img
+                class="img-block"
                 src="./images/a_person_types_text_on_keyboard.jpg"
                 alt="людина печатає текст на клавіатурі"
                 width="370"
@@ -102,6 +95,7 @@
             </li>
             <li class="what_we_doing-item">
               <img
+                class="img-block"
                 src="./images/a_person_works_at_laptop_and_holds_smartphone.jpg"
                 alt="людина працює за ноутбуком та тримає смартфон"
                 width="370"
@@ -110,6 +104,7 @@
             </li>
             <li class="what_we_doing-item">
               <img
+                class="img-block"
                 src="./images/a_person_works_with_tablet.jpg"
                 alt="людина працює із планшетом"
                 width="370"
@@ -125,54 +120,58 @@
         <div class="container">
           <h2 class="title-our-team">Наша команда</h2>
           <ul class="our-team-item">
-            <div class="container-our-team">
-              <li class="team-presentation">
-                <img
-                  src="./images/photo_ihor_demyanenko.jpg"
-                  alt="фото Ігора Дем'яненко"
-                  width="270"
-                  height="260"
-                />
+            <li class="team-presentation">
+              <img
+                class="img-block"
+                src="./images/photo_ihor_demyanenko.jpg"
+                alt="фото Ігора Дем'яненко"
+                width="270"
+                height="260"
+              />
+              <div class="card">
                 <h3 class="name">Ігор Дем'яненко</h3>
                 <p class="our-team-txt" lang="en">Product Designer</p>
-              </li>
-            </div>
-            <div class="container-our-team">
-              <li class="team-presentation">
-                <img
-                  src="./images/photo_olgha_repina.jpg"
-                  alt="фото Ольги Репіної"
-                  width="270"
-                  height="260"
-                />
+              </div>
+            </li>
+            <li class="team-presentation">
+              <img
+                class="img-block"
+                src="./images/photo_olgha_repina.jpg"
+                alt="фото Ольги Репіної"
+                width="270"
+                height="260"
+              />
+              <div class="card">
                 <h3 class="name">Ольга Рєпіна</h3>
                 <p class="our-team-txt" lang="en">Frontend Developer</p>
-              </li>
-            </div>
-            <div class="container-our-team">
-              <li class="team-presentation">
-                <img
-                  src="./images/photo_mukola_tarasov.jpg"
-                  alt="фото Миколи Тарасова"
-                  width="270"
-                  height="260"
-                />
+              </div>
+            </li>
+            <li class="team-presentation">
+              <img
+                class="img-block"
+                src="./images/photo_mukola_tarasov.jpg"
+                alt="фото Миколи Тарасова"
+                width="270"
+                height="260"
+              />
+              <div class="card">
                 <h3 class="name">Микола Тарасов</h3>
                 <p class="our-team-txt" lang="en">Marketing</p>
-              </li>
-            </div>
-            <div class="container-our-team">
-              <li class="team-presentation">
-                <img
-                  src="./images/photo_michailo_ermakov.jpg"
-                  alt="фото Михайла Єрмакова"
-                  width="270"
-                  height="260"
-                />
+              </div>
+            </li>
+            <li class="team-presentation">
+              <img
+                class="img-block"
+                src="./images/photo_michailo_ermakov.jpg"
+                alt="фото Михайла Єрмакова"
+                width="270"
+                height="260"
+              />
+              <div class="card">
                 <h3 class="name">Михайло Єрмаков</h3>
                 <p class="our-team-txt" lang="en">UI Designer</p>
-              </li>
-            </div>
+              </div>
+            </li>
           </ul>
         </div>
       </section>
