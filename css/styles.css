@@ -257,7 +257,7 @@ nav.container {
 }
 .our-team {
   background-color: var(--background-button-color);
-  padding: 94px 0 94px 0;
+  padding: 94px 0;
 }
 .team-presentation {
   background-color: var(--brand-color);
